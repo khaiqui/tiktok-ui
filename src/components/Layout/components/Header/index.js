@@ -67,7 +67,7 @@ function Header() {
     {
       icon: <FontAwesomeIcon icon={faUser} />,
       title: "View profile",
-      to: "/@hoaa",
+      to: "/myPorfile",
     },
     {
       icon: <FontAwesomeIcon icon={faCoins} />,
@@ -116,7 +116,7 @@ function Header() {
             {currentUser ? (
               <img
                 className={cx("user-avatar")}
-                src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/ea0854578085ab26effc2c7b8cefa270~c5_100x100.jpeg?x-expires=1651658400&x-signature=zeUCDyTxctGYZ5%2Bsh422klviXFE%3D"
+                src="https://i.pinimg.com/originals/26/b0/70/26b070c9ebea28c42af73f8309f196ec.gif"
                 alt="Nguyen Van A"
               />
             ) : (
